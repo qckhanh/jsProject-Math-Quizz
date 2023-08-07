@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HALL </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <audio id="musicPlayer">
+        <source src="bkgr.mp3" type="audio/mpeg">
+    </audio>
+
+    <h1 id="h1" class="clH1">MATH GAME</h1>
+    <br> <br>
+    <box id="coin" class="data">COIN: </box>
+    <box id="level" class="data">LEVEL: </box>
+    <br> <br>
+    
+    <H1 id="question" class="clH1"></H1> <br> <br>
+
+    <h3 id="help"></h3>   
+    <hr>
+    <button class="btn" id="helpbtn">SKIP</button>
+    <button class="btn" id="send">NEXT</button> <br>
+    <label id="condition">😶</label>
+
+    <hr> 
+            <label class="custom-radio">
+                <input type="radio" id="A" name="choice"> A:
+                <box id="ansA" name="ans" class="aw"></box> <br>
+            </label>
+            <label class="custom-radio">
+                <input type="radio" id="B" name="choice"> B:
+                <box id="ansB" name="ans" class="aw"></box> <br> 
+            </label>
+            <label class="custom-radio">
+                <input type="radio" id="B" name="choice"> C:
+                <box id="ansC" name="ans" class="aw"></box> <br>
+                 
+            </label>
+            <label class="custom-radio">
+                <input type="radio" id="C" name="choice"> D:
+                <box id="ansD" name="ans" class="aw"></box> <br>
+            </label>
+           
+    <br>
+
+    
+    <!-- <i class="fa-solid fa-arrow-right-long fa-bounce fa-xl"></i> -->
+    
+    <br>
+    <!-- <i class="fa-solid fa-person-through-window"></i> -->
+    <button class="btn" id="exit">QUIT GAME</button>
+    <br>
+    <!-- <i class="fa-solid fa-lightbulb"></i> -->
+    
+
+    
+    <script src="https://kit.fontawesome.com/e71d874bed.js" crossorigin="anonymous"></script>
+    <script src="gameMainProcess.js"></script>
+    
+</body>
+</html>
